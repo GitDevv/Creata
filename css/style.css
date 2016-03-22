@@ -97,7 +97,7 @@ header .right{
 	text-align: right;
 	margin-top: 25px;
 }
-header .right .number{
+header .right .number a{
 	font-size: 24px;
     font-family: "PTSansRegular";
 	color: #fff;
@@ -105,6 +105,7 @@ header .right .number{
 	-moz-text-shadow: 10px 27px   rgba(0,0,0,0.6);
 	-webkit-text-shadow: 10px 27px   rgba(0,0,0,0.6);	
 	font-weight: 100;
+	text-decoration: none;
 }
 header .right .callback{
 	display: inline-block;
@@ -1419,11 +1420,12 @@ footer .right {
 	text-align: right;
 	margin-left: 175px;
 }
-footer .number {
+footer .number a {
 	font-size: 30px;
 	color: #fff;
 	font-family: "PTSansRegular", sans-serif;	
- 
+	text-decoration: none;
+	border: 0;
 }
 footer .callback {
 	display: inline-block;
